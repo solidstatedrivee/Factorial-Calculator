@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recursion Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Let's play around with recursion!</h1>
+    <p>Open the console, please</p>
+    <form>
+        <p>The factorial of a number is denoted as <i>n!</i></p>
+        <p>It is calculated by <i>n! = n * (n-1) * (n-2) * ... * 1</i></p>
+        <p>A common use case for factorials is to calculate arrangements and possibilities. Say, for example, you have a standard deck of 52 cards and you wanted to know the amount of unique ways you can arrange them. The answer would be the factorial of
+            52, or <i>52!</i> (which is an indredibly large number 😵).</p>
+        <p>Enter a number below to calculate its factorial</p>
+        <input type="text" name="factorial_input" placeholder="Enter a number">
+        <div class="button" onclick="factorial()">Give me the factorial</div>
+        <div class="button calculateFactorial">Let's see the factorial</div>
+        <p>Output:
+            <div class="factorialOutput"></div>
+            <div class="workShown"></div>
+        </p>
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
